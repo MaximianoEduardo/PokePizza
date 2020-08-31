@@ -11,7 +11,7 @@ const Main: React.FC = () => {
 
         <Header />
         <Banner />
-        {/* <Central /> */}
+        <Central />
     </Container>
   );
 };

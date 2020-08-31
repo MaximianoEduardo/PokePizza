@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../assets/images/df3b4fe03dbb63f27685fb09cafb456f.png'
+import Logo from '../../assets/images/logo.png'
 import {  HeaderDiv, Input  } from './styles'
 
 const Header: React.FC = () => {
