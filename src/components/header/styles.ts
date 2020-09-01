@@ -8,6 +8,9 @@ export const HeaderDiv = styled.div`
     min-height: 100px;
     width: 100%;
     justify-content:  space-between;
+    >img{
+        max-width: 135px;
+    }
 `;
 
 export const Input = styled.input`

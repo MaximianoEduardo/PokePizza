@@ -1,5 +1,5 @@
 import React from 'react';
-import Pokemon from '../../assets/images/logo-banner.png'
+import Pokemon from '../../assets/images/logo.png'
 
 import { BannerDiv, ButtonOrder, Title, ImageBanner } from './styles'
 
