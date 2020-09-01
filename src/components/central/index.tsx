@@ -1,5 +1,5 @@
 import React from 'react';
-import { CentralDiv, Title, Description, Image } from './styles'
+import { CentralDiv, Title, Image } from './styles'
 import Desconto from '../../assets/images/egg.png'
 
 const Central: React.FC = () => {
@@ -11,17 +11,12 @@ const Central: React.FC = () => {
   )
 
   return (
-    <CentralDiv>
+    <CentralDiv onClick={() => handleClick}>
 
       <Title>
           Bem-vindo a central PokéPizza!
       </Title>
-
-      <Description onClick={( handleClick )}>
-        Primeira vez que compra?? <br/>
-        <Image src={Desconto}/>
-      </Description>
-
+      <Image  src={Desconto}/>
     </CentralDiv>
   );
 };
